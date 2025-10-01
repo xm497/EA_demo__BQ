@@ -112,6 +112,6 @@ In this section, we have:
 
 ## Dont forget to Run undo commands
 ```python
-99undo_initsetup.sh
+./99undo_initsetup.sh
 ```
 
