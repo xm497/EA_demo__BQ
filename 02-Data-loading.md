@@ -2,7 +2,10 @@
 The below step will load the data from csv, json , txt to mimic loading from various data source.
 
 ## 1. Load Books data.(csv)
-
+create a Notebook and name it 
+```python
+Load_Data_Books
+```
 1.1  Import required libraries and config
 ```python
 # Import required libraries
@@ -64,6 +67,10 @@ books_job=load_data()
 ```
 
 ## 2.Load Customer data. (Json)
+create a Notebook and name it 
+```python
+Load_Data_Customer
+```
 2.1   Import required libraries and config
 ```python
 # Import required libraries
@@ -125,6 +132,10 @@ customers_job=load_customers_json()
 ```
 
 ## 3. Load Sales data. (Json) (try it)
+create a Notebook and name it 
+```python
+Load_Data_Sales
+```
 Just use the above example and try to load the sales data.
 3.1 import libraries and config.
 
@@ -133,6 +144,11 @@ Just use the above example and try to load the sales data.
 
 ## 4. Load Weblog data.(txt)
 let us now parse the website logs
+create a Notebook and name it 
+```python
+Load_Data_Weblogs
+```
+
 
 4.1 declare the libraries and config
 ```python
