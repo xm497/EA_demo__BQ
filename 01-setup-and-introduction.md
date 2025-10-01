@@ -32,6 +32,7 @@ gcloud config set project xm497-2025-09-16-sqvyh-1
 
 
 ## B.Script Step
+run the below script
 ```python
 ./00init_setup.sh 
 ```
@@ -44,4 +45,4 @@ gcloud config set project xm497-2025-09-16-sqvyh-1
 - Upload files to GCS bucket 
 - Create Data set and table
 
-
+## B.Let us verify the setup
