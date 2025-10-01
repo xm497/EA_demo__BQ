@@ -11,7 +11,7 @@ Before starting this section, ensure you have:
 - BigQuery tables (`t_books_raw`, `t_customers_raw`, `t_sales_raw`,`t_weblogs_raw`) created successfully
 
 
-## Step 4: Analytical Queries
+## Step 1: Analytical Queries
 
 Now let's run our three main analytical queries to extract business insights.
 
