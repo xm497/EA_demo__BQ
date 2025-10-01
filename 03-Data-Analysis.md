@@ -69,7 +69,7 @@ GROUP BY b.book_id, b.title, b.authors, b.price
 ORDER BY total_views DESC
 LIMIT 5
 ```
-### 4.3 Query 3: Find Top 5 Most Viewed Books
+### 4.3 load this to BigQuery tables
 ```python
  from google.cloud import bigquery
 
