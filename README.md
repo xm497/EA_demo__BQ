@@ -4,7 +4,7 @@
 
 ## Overview
 
-This comprehensive tutorial guides you through building an end-to-end data analysis project using Google Cloud Platform (GCP) BigQuery Notebooks. You'll work with multiple data sources including a CSV, JSON files, and text logs to analyze sales and engagement data for a EA online bookstore.
+This tutorial guides you through building an end-to-end data project using Google Cloud Platform (GCP) BigQuery Notebooks. You'll work with multiple data sources including a CSV, JSON files, and text logs to analyze sales and engagement data for a EA online bookstore.
 
 ## Project Goal
 
@@ -13,14 +13,15 @@ By the end of this tutorial, you will:
 2. Identify the top **5 customers** by total spending  
 3. Analyze web logs to find the top **5 most viewed books**
 
-## Data Sources
 
-- **CSV**: Google Books API for book metadata
-- **JSON Files**: Customer and sales transaction data
+## Learning Goal
+
+- **CSV**: load data from Csv (Books)
+- **JSON Files**: Mimicing Api result: Customer and sales transaction data
 - **Text Log File**: Web server logs with page view data
 
-### Generated Data (Production-Scale)**
-- 100 books, 500 customers, 2,000 sales, 5,000 log entries
+### Data (synthetic)**
+- 100 books, 500 customers, 2,000 sales, 4746 log entries
 - Located in `resources/` folder with realistic business patterns
 
 
@@ -39,13 +40,11 @@ The tutorial is organized into three main sections:
 - Data processing in BigQuery Notebooks --Books
 - Data processing in BigQuery Notebooks --Customers
 - Data processing in BigQuery Notebooks --sales
-- Log file parsing and table creation
+- Data processing in BigQuery Notebooks --Log file parsing 
+
+
+### [Section 3: Anlysis Results and Visualization](./03-results-and-visualization.md)
 - SQL queries for business insights
 
-
-### [Section 3: Results and Visualization](./03-results-and-visualization.md)
-- Result presentation and visualization
-- Summary of accomplishments
-- Next steps and recommendations
 
 
