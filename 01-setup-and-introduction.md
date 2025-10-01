@@ -46,3 +46,5 @@ run the below script
 - Create Data set and table
 
 ## B.Let us verify the setup
+- ✅ please check the above listed resource are created 
+ 
