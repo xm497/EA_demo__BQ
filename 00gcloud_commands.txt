@@ -3,8 +3,6 @@ gcloud auth login
 # Configure gcloud to use your project
 gcloud config set project <Your project here>
 
-chmod +x 00init_setup.sh
-chmod +x 99undo_initsetup.sh
 
 # Run the below scripts
 
