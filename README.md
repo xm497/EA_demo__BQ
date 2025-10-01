@@ -9,9 +9,9 @@ This comprehensive tutorial guides you through building an end-to-end data analy
 ## Project Goal
 
 By the end of this tutorial, you will:
-1. Identify the top 5 best-selling books by revenue
-2. Identify the top 5 customers by total spending  
-3. Analyze web logs to find the top 5 most viewed books
+1. Identify the top **5 best-selling** books by revenue
+2. Identify the top **5 customers** by total spending  
+3. Analyze web logs to find the top **5 most viewed books**
 
 ## Data Sources
 
