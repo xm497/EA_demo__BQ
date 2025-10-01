@@ -1,4 +1,4 @@
-# BigQuery Notebooks Tutorial: Loading Data
+# Section 2: BigQuery Notebooks Tutorial: Loading Data
 The below step will load the data from csv, json , txt to mimic loading from various data source.
 
 ## 1. Load Books data.(csv)
