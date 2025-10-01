@@ -80,15 +80,8 @@ bq mk \
 ## 3. Create T_WEBLOGS_RAW table
 bq mk \
   --table \
-  --description="Raw web logs data table with all string columns" \
-  EA_DEMO.T_WEBLOGS_RAW \
-  log_entry:STRING
-
-
-bq mk \
-  --table \
   --description="Raw web logs data table with parsed columns (all strings)" \
-  EA_DEMO.T_WEBLOGS_RAW_PARSED \
+  EA_DEMO.T_WEBLOGS_RAW \
   timestamp:STRING,log_level:STRING,customer_id:STRING,action:STRING,book_id:STRING
 
 

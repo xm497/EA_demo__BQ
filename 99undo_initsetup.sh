@@ -35,12 +35,12 @@ echo "Deleting GCS bucket..."
 gcloud storage rm --recursive gs://ea-demo-1raw || echo "Bucket deletion failed or doesn't exist"
 
 echo "Deleting BigQuery table..."
-bq rm -f -t $PROJECT_ID:EA_DEMO.T_BOOKS_RAW
-bq rm -f -t $PROJECT_ID:EA_DEMO.T_CUSTOMERS_RAW
-bq rm -f -t $PROJECT_ID:EA_DEMO.T_SALES_RAW
-bq rm -f -t $PROJECT_ID:EA_DEMO.T_WEBLOGS_RAW
+bq rm -f -t $PROJECT_ID:EA_DEMO.T_BOOKS_RAW || echo "table deletion failed or doesn't exist"
+bq rm -f -t $PROJECT_ID:EA_DEMO.T_CUSTOMERS_RAW || echo "table deletion failed or doesn't exist"
+bq rm -f -t $PROJECT_ID:EA_DEMO.T_SALES_RAW || echo "table deletion failed or doesn't exist"
+bq rm -f -t $PROJECT_ID:EA_DEMO.T_WEBLOGS_RAW || echo "table deletion failed or doesn't exist"
 echo "Deleting BigQuery dataset..."
-bq rm -f -d $PROJECT_ID:EA_DEMO
+bq rm -f -d $PROJECT_ID:EA_DEMO || echo "dataset deletion failed or doesn't exist"
 
 echo "Cleanup complete!"
 echo "All resources have been removed."
