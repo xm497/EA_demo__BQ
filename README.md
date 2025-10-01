@@ -36,7 +36,7 @@ The tutorial is organized into three main sections:
 - BigQuery dataset and table creation
 - BigQuery Notebook creation
 
-### [Section 2: Building Analysis Logic](./02-Data-loading.md)
+### [Section 2: Loading data and Analysis](./02-Data-loading.md)
 - Data Loading in BigQuery Notebooks --Books
 - Data Loading in BigQuery Notebooks --Customers
 - Data Loading in BigQuery Notebooks --sales
