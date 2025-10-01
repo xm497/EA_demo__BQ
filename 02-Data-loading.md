@@ -126,8 +126,61 @@ customers_job=load_customers_json()
 
 ## 3. Load Sales data. (Json) (try it)
 Just use the above example and try to load the sales data.
-3.1 import libraries and config
+3.1 import libraries and config.
+
 3.2 create the function , please note table_id , uri and any refrence to the table T_XXX_RAW needs to be changed.
-<img width="150" height="43" alt="image" src="https://github.com/user-attachments/assets/3a8c4b66-05ec-4eb2-a6b7-a33cd24ede36" />
+
 
 ## 4. Load Weblog data.(txt)
+let us now parse the website logs
+
+4.1 declare the libraries and config
+```python
+from google.cloud import bigquery
+from google.cloud import storage
+import re
+from datetime import datetime
+
+# Configuration
+PROJECT_ID = bigquery.Client().project
+DATASET_ID = 'EA_DEMO_RAW'
+BUCKET_NAME = 'ea-demo-1raw'
+FILE_NAME = 'web_logs.txt'
+raw_table = f"{PROJECT_ID}.{DATASET_ID}.T_WEBLOGS_RAW"
+
+# Initialize clients
+bq_client = bigquery.Client(project=PROJECT_ID)
+storage_client = storage.Client(project=PROJECT_ID)
+```
+4.2 Read file from bucket 
+```python
+# Read file from GCS
+bucket = storage_client.bucket(BUCKET_NAME)
+blob = bucket.blob(FILE_NAME)
+log_data = blob.download_as_text()
+```
+4.3  set up regex config
+```python
+# Parse logs
+pattern = r"\[(.*?)\] (\w+): User '(.*?)' (.*?) book '(.*?)'"
+rows = [
+    {
+        "timestamp": match[0],
+        "log_level": match[1],
+        "customer_id": match[2],
+        "action": match[3],
+        "book_id": match[4]
+    }
+    for match in re.findall(pattern, log_data)
+]
+
+```
+4.4 load the table 
+```python
+# Step 1: Overwrite the raw table
+job_config = bigquery.LoadJobConfig(write_disposition="WRITE_TRUNCATE")
+job = bq_client.load_table_from_json(rows, raw_table, job_config=job_config)
+job.result()  # Wait for job to complete
+
+print(f" Inserted {len(rows)} rows into {raw_table}.")
+```
