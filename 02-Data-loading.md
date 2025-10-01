@@ -1,7 +1,8 @@
 # BigQuery Notebooks Tutorial: Loading Data
 The below step will load the data from csv, json , txt to mimic loading from various data source.
 
-## Load Books data.(csv)
+##1. Load Books data.(csv)
+1.1  Import required libraries and config
 ```python
 # Import required libraries
 import google.cloud.bigquery as bq
@@ -20,7 +21,7 @@ BUCKET_NAME = f'ea-demo-1raw'
 
 print(f'The project currently set is :{PROJECT_ID}')
 ```
-to load the data we can create a function as below
+1.2 To load the data we can create a function as below:
 ```python
 # Load  data from CSV
 def load_data():
@@ -56,7 +57,7 @@ def load_data():
     print(f"Loaded {table.num_rows:,} rows into T_BOOKS_RAW")
     return load_job
 ```
-let us call this function.
+1.3 let us call this function.
 ```python
 books_job=load_data()
 ```
