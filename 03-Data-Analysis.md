@@ -103,6 +103,7 @@ print("All queries loaded into their respective tables.")
 ## What We've Accomplished
 
 In this section, we have:
+
 ✅ **Handled different data sources in bigQuery**: API data, structured JSON, and unstructured text logs  
 ✅ **Processed unstructured data**: Parsed web server logs using regular expressions  
 ✅ **Created tables via gcloud**: Used BigQuery client gcloud command to create new tables  
