@@ -57,10 +57,11 @@ gcloud storage cp ./resources/customers.json gs://ea-demo-1raw/ || echo "custome
 gcloud storage cp ./resources/sales.json gs://ea-demo-1raw/ || echo "sales.json not found"
 gcloud storage cp ./resources/web_logs.txt gs://ea-demo-1raw/ || echo "web_logs.txt not found"
 
-bq --location=europe-west3 mk --dataset --description "Demo dataset for EA project" $PROJECT_ID:EA_DEMO 
+bq --location=europe-west3 mk --dataset --description "Demo dataset for EA project" $PROJECT_ID:EA_DEMO_RAW
+bq --location=europe-west3 mk --dataset --description "Demo dataset for EA project" $PROJECT_ID:EA_DEMO_ACCESS
 
 bq --location=europe-west3 mk --table \
-  $PROJECT_ID:EA_DEMO.T_BOOKS_RAW \
+  $PROJECT_ID:EA_DEMO_RAW.T_BOOKS_RAW \
   book_id:STRING,title:STRING,authors:STRING,category:STRING,publication_year:INTEGER,isbn:STRING,price:FLOAT,page_count:INTEGER,rating:FLOAT
 
 
@@ -68,21 +69,21 @@ bq --location=europe-west3 mk --table \
 bq --location=europe-west3 mk \
   --table \
   --description="Raw customers data table with all string columns" \
-  EA_DEMO.T_CUSTOMERS_RAW \
+  EA_DEMO_RAW.T_CUSTOMERS_RAW \
   customer_id:STRING,customer_name:STRING,email:STRING,phone:STRING,address:STRING,city:STRING,state:STRING,zip_code:STRING,country:STRING,join_date:STRING,birth_year:STRING,preferred_genre:STRING,loyalty_tier:STRING
 
 ## 2. Create T_SALES_RAW table  
 bq --location=europe-west3 mk \
   --table \
   --description="Raw sales data table with all string columns" \
-  EA_DEMO.T_SALES_RAW \
+  EA_DEMO_RAW.T_SALES_RAW \
   sale_id:STRING,customer_id:STRING,book_id:STRING,quantity:STRING,sale_date:STRING,sale_time:STRING,payment_method:STRING,discount_applied:STRING,shipping_cost:STRING
 
 ## 3. Create T_WEBLOGS_RAW table
 bq --location=europe-west3 mk \
   --table \
   --description="Raw web logs data table with parsed columns (all strings)" \
-  EA_DEMO.T_WEBLOGS_RAW \
+  EA_DEMO_RAW.T_WEBLOGS_RAW \
   timestamp:STRING,log_level:STRING,customer_id:STRING,action:STRING,book_id:STRING
 
 
