@@ -1,4 +1,4 @@
-## Overview of Setup
+## Section1 : Overview of Setup
 The below document will list the overall setup scripts for better understanding of EA Online store
 
 There are mainly 2 steps for the setup, one which run manually and then by script.
