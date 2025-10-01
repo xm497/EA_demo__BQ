@@ -1,5 +1,5 @@
 
-# BigQuery Notebooks Tutorial: Demo on Sales Analysis (Generated Data)
+# BigQuery Notebooks Tutorial: Demo on Sales Analysis EA Online Book Store
 
 ## Overview
 
