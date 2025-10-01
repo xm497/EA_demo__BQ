@@ -6,6 +6,9 @@ There are mainly 2 steps for the setup, one which run manually and then by scrip
 ## A.Manaual Step
 
 ### 0: git clone this repo
+```python
+git clone https://github.com/xm497/EA_demo__BQ.git
+```
 ### 1: Authenticate with Gcloud command
 ```python
 gcloud auth login
