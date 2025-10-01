@@ -2,6 +2,11 @@
 The below document will list the overall setup scripts for better understanding of EA Online store
 
 There are mainly 2 steps for the setup, one which run manually and then by script.
+To run the manual script, we need to open the dev portal (https://devportal.deutsche-boerse.de/), Then Click on GCP Garage
+
+<img width="845" height="609" alt="image" src="https://github.com/user-attachments/assets/61779bfc-818e-4709-bd00-1b7719544f83" />
+
+
 
 ## A.Manaual Step
 
