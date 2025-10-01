@@ -43,7 +43,7 @@ The tutorial is organized into three main sections:
 - Data Loading in BigQuery Notebooks --Log file parsing 
 
 
-### [Section 3: Anlysis Results](./03-results-and-visualization.md)
+### [Section 3: Anlysis Results](./03-Data-Analysis.md)
 - SQL queries for business insights
 
 
