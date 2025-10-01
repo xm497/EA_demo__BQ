@@ -31,6 +31,8 @@ gcloud colab runtime-templates create \
   --project=$PROJECT_ID \
   --region=europe-west3 \
   --machine-type=e2-standard-4 \
+  --disk-type=PD_STANDARD \
+  --disk-size-gb=20  \
   --network=projects/$PROJECT_ID/global/networks/europe-vpc \
   --subnetwork=projects/$PROJECT_ID/regions/europe-west3/subnetworks/europe-subnet \
   --idle-shutdown-timeout=600s
