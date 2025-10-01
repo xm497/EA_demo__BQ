@@ -20,7 +20,7 @@ By the end of this tutorial, you will:
 - **JSON Files**: Mimicing Api result: Customer and sales transaction data
 - **Text Log File**: Web server logs with page view data
 
-### Data (synthetic)**
+### Data (synthetic)
 - 100 books, 500 customers, 2,000 sales, 4746 log entries
 - Located in `resources/` folder with realistic business patterns
 
