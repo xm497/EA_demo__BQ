@@ -48,11 +48,11 @@ run the below script
 ## B.Let us verify the setup
  please check the above listed resource are created
 - ✅ Go to Colab and runtime template
-  <img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/88174e82-2be7-4c83-a54e-c85028fd8896" />
+  <img width="600" height="180" alt="image" src="https://github.com/user-attachments/assets/88174e82-2be7-4c83-a54e-c85028fd8896" />
 - ✅ Go to GCS bucket ea-demo-1raw and check the files are placed or not.
-  <img width="522" height="340" alt="image" src="https://github.com/user-attachments/assets/4851189d-94ec-4672-929d-77ffb0d9f2b7" />
+  <img width="522" height="390" alt="image" src="https://github.com/user-attachments/assets/4851189d-94ec-4672-929d-77ffb0d9f2b7" />
 - ✅ Go to BigQuery and see the Dataset/tables are created.
-  <img width="209" height="250" alt="image" src="https://github.com/user-attachments/assets/ff68ab73-c1ad-4ee3-bab4-d5c2031c0a62" />
+  <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/ff68ab73-c1ad-4ee3-bab4-d5c2031c0a62" />
 
  
 
