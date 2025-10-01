@@ -67,28 +67,28 @@ bq mk --table \
 bq mk \
   --table \
   --description="Raw customers data table with all string columns" \
-  bookstore_analysis.T_CUSTOMERS_RAW \
+  EA_DEMO.T_CUSTOMERS_RAW \
   customer_id:STRING,customer_name:STRING,email:STRING,phone:STRING,address:STRING,city:STRING,state:STRING,zip_code:STRING,country:STRING,join_date:STRING,birth_year:STRING,preferred_genre:STRING,loyalty_tier:STRING
 
 ## 2. Create T_SALES_RAW table  
 bq mk \
   --table \
   --description="Raw sales data table with all string columns" \
-  bookstore_analysis.T_SALES_RAW \
+  EA_DEMO.T_SALES_RAW \
   sale_id:STRING,customer_id:STRING,book_id:STRING,quantity:STRING,sale_date:STRING,sale_time:STRING,payment_method:STRING,discount_applied:STRING,shipping_cost:STRING
 
 ## 3. Create T_WEBLOGS_RAW table
 bq mk \
   --table \
   --description="Raw web logs data table with all string columns" \
-  bookstore_analysis.T_WEBLOGS_RAW \
+  EA_DEMO.T_WEBLOGS_RAW \
   log_entry:STRING
 
 
 bq mk \
   --table \
   --description="Raw web logs data table with parsed columns (all strings)" \
-  bookstore_analysis.T_WEBLOGS_RAW_PARSED \
+  EA_DEMO.T_WEBLOGS_RAW_PARSED \
   timestamp:STRING,log_level:STRING,customer_id:STRING,action:STRING,book_id:STRING
 
 
