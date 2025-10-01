@@ -1,0 +1,101 @@
+book_id,title,authors,category,publication_year,isbn,price,page_count,rating
+BOOK_001,Das Science Fiction Jahr 2019,"Melanie Wylutzki, Hardy Kettlitz",Fiction,2020,978-1-66334-463-2,39.01,488,3.8
+BOOK_002,Das Science Fiction Jahr 2024,"Judith Vogt, Christian Vogt, Dietmar Dath, Lena Richter",Fiction,2024,978-0-209-61913-5,56.39,792,4.9
+BOOK_003,Das Rätsel der Kalythar und 10 weitere Science Fiction Abenteuer,Alfred Bekker,Fiction,2025,978-0-07-336209-0,80.73,392,4.6
+BOOK_004,Mystery,Dominik Mang,Mystery,2020,978-0-573-79417-9,25.82,267,4.8
+BOOK_005,Laura Frost Mystery-Paket: Bereits in der Falle (#3) und Bereits Vermisst (#4),Blake Pierce,Mystery,2022,978-0-442-91739-5,31.23,794,3.7
+BOOK_006,Laura Frost Mystery-Paket: Vor Langem Verschwunden (#1) und Vor Langem Entdeckt (#2),Blake Pierce,Mystery,2022,978-1-5296-3383-2,82.91,413,3.5
+BOOK_007,The Acquisition of Syntax in Romance Languages,"Vincent Torrens, Linda Escobar",Romance,2006,978-0-315-63963-8,59.74,415,3.4
+BOOK_008,The Romance Languages,Rebecca Posner,Romance,1996,978-1-69803-405-8,47.47,325,3.8
+BOOK_009,The Romance of the Rose,"Guillaume de Lorris, Jean de Meun",Romance,1995,978-0-7523-0185-3,83.79,247,3.4
+BOOK_010,9 Großartige Science Fiction Abenteuer im Zukunfts-Bundle Juni 2025,"Alfred Bekker, Malcolm Jameson, Arthur Leo Zagat, Fenton Ash, M. P. Shiel",Science Fiction,2025,978-0-509-05444-5,73.83,297,3.1
+BOOK_011,Die Zeitmaschine. H. G. Wells. Ein Science Fiction Roman,H. G. Wells,Science Fiction,2019,978-1-204-94094-1,31.24,290,3.9
+BOOK_012,Kurs ins Nirgendwo: 3 Science Fiction Romane in einem Band,"Alfred Bekker, Lloyd Cooper, Ann Murdoch",Science Fiction,2023,978-1-77439-862-3,31.27,665,3.2
+BOOK_013,Der Wunsch der Welt: Fantasy Roman,"H. Rider Haggard, Andrew Lang",Fantasy,2024,978-1-07-189146-9,80.74,527,5
+BOOK_014,Final Fantasy − Lost Stranger 6,"Hazuki Minase, Itsuki Kameya",Fantasy,2022,978-1-5063-0748-0,26.83,552,5
+BOOK_015,Elbenschwerter und Magie: 1700 Seiten Fantasy Paket,Alfred Bekker,Fantasy,2022,978-0-354-86336-0,77.53,625,3.9
+BOOK_016,The Challenge of Feminist Biography,Sara Alpern,Biography,1992,978-1-02-829154-0,32.62,651,3.8
+BOOK_017,The Complete Poetry (Including a Biography of the Author),O. Henry,Biography,2015,978-1-160-94734-3,33.6,591,3.4
+BOOK_018,Reading Biography,Carl Rollyson,Biography,2004,978-1-212-51545-2,19.82,624,4
+BOOK_019,Disability History,"Elsbeth B�sl, Anne Klein, Anne Waldschmidt",History,2014,978-0-7804-1627-7,10.95,553,5
+BOOK_020,Doing History,"Sarah Willner, Georg Koch, Stefanie Samida",History,2016,978-0-7600-5736-0,31.44,302,3.4
+BOOK_021,Hosea and Salvation History,Dwight R. Daniels,History,2014,978-1-927701-88-1,83.16,478,4.5
+BOOK_022,Erfolgsfaktoren von Mobile Business,Martin Egeli,Business,2016,978-1-84226-156-9,49.81,211,3.4
+BOOK_023,Relationship Conflicts in Changing Business Families in India and Germany,Janina Fee Schroeder,Business,2017,978-0-517-69806-8,47.86,585,4.9
+BOOK_024,Reports and Documents,United States. Congress,Business,1960,978-0-358-51607-1,12.9,262,4.4
+BOOK_025,Self-help,Samuel Smiles,Self Help,1881,978-0-336-79041-7,78.71,529,3.5
+BOOK_026,"100 Summaries of Seminal Self-Help Books: The Keys to Success in Finance, Relationships, Happiness and Personal Development",Simon Mayer,Self Help,2025,978-0-413-31082-8,23.82,258,3.7
+BOOK_027,"Self Help, Inc.",Micki McGee,Self Help,2005,978-1-00-152435-1,27.26,299,3.4
+BOOK_028,"Kochen, Putzen, Sorgen / Cooking Cleaning Caring","Friederike Sigler, Linda Walther",Cooking,2024,978-1-86909-490-4,48.5,281,3.8
+BOOK_029,Airfryer Delights: A Cookbook for cooking Enthusiats,Jan Dierssen,Cooking,2023,978-1-926383-93-4,25.03,469,3.7
+BOOK_030,Coorie Cooking - Schottische Rezepte zum Wohlfühlen,Lachlan Anderson,Cooking,2021,978-0-6485420-9-4,37.72,500,3.8
+BOOK_031,Centralized 3rdgeneration analyzer: E-Enable Cross-Platform Synergies,Catherine Young,Fiction,2016,978-0-12-797987-8,66.21,677,3.5
+BOOK_032,Upgradable disintermediate archive: Monetize Revolutionary Networks,Rebecca Gonzalez,Travel,2022,978-1-78597-071-9,64.74,528,4.6
+BOOK_033,Virtual multimedia help-desk: Re-Intermediate Turn-Key E-Tailers,Laura Davis,Fantasy,2017,978-1-386-30738-9,19.78,421,4.8
+BOOK_034,Synchronized next generation utilization: Orchestrate Revolutionary Infrastructures,Richard Gilbert,Cooking,2017,978-0-592-10664-9,81.31,765,4.6
+BOOK_035,Managed 6thgeneration service-desk: Integrate Value-Added Platforms,Courtney Lee,Romance,2021,978-0-7564-8518-4,85.22,252,3.7
+BOOK_036,Streamlined zero administration software: Envisioneer Cutting-Edge Roi,Dana Contreras,Self-Help,2018,978-0-13-478657-5,78.96,253,3.8
+BOOK_037,Distributed interactive leverage: Engage Cross-Media E-Markets,Marvin Rogers,History,2020,978-0-9985391-8-8,87.37,386,3.8
+BOOK_038,Robust global service-desk: Harness Impactful Supply-Chains,James Thomas,Romance,2022,978-1-337-04816-3,19.25,301,4.5
+BOOK_039,Automated global workforce: Integrate Bleeding-Edge E-Tailers,Richard Taylor,Fantasy,2021,978-1-4369-9174-2,34.13,701,4.7
+BOOK_040,Programmable homogeneous instruction set: Benchmark Proactive Web Services,"David Wagner, Mary Ruiz",History,2015,978-0-19-337360-0,74.23,433,4.6
+BOOK_041,Distributed didactic application: Whiteboard Granular Metrics,Linda Gonzalez,Health,2019,978-0-603-98422-8,49.91,710,4.8
+BOOK_042,Robust contextually-based contingency: Maximize Open-Source Solutions,Brad Harper,Cooking,2023,978-1-971620-66-4,70.73,390,4.8
+BOOK_043,Integrated solution-oriented approach: Iterate Bleeding-Edge Mindshare,Angela Duran,Self-Help,2018,978-0-662-43560-0,43.1,686,3.3
+BOOK_044,Re-engineered 3rdgeneration matrices: Syndicate Compelling Platforms,"Eric Frye MD, Crystal Bass",Philosophy,2016,978-1-55932-532-5,77.3,473,4.3
+BOOK_045,Distributed optimal ability: Revolutionize Value-Added E-Markets,Shelby Evans,Psychology,2019,978-0-14-090894-7,55.83,471,3.1
+BOOK_046,Ergonomic reciprocal Graphic Interface: Re-Intermediate Holistic Systems,Roy Sanchez,Fantasy,2019,978-1-270-03877-1,40.57,268,4.3
+BOOK_047,Configurable non-volatile customer loyalty: Grow Turn-Key E-Markets,Tanya Mason,Health,2024,978-1-233-46112-7,63.88,524,3.9
+BOOK_048,Integrated mobile flexibility: Empower Bricks-And-Clicks Content,"Sabrina Shaw, Richard Hudson",Romance,2017,978-0-559-75897-3,54.13,759,4.3
+BOOK_049,Open-source optimizing monitoring: Engage User-Centric E-Tailers,Heather Burton,Psychology,2015,978-1-172-81442-8,51.25,573,3.7
+BOOK_050,Customer-focused multimedia function: Seize Strategic Content,Emily Williams,Self-Help,2024,978-1-05-917735-6,43.52,721,3.4
+BOOK_051,Balanced systemic model: Engineer Vertical Convergence,Pamela Carter,Sci-Fi,2016,978-0-658-35766-4,72.28,511,3.8
+BOOK_052,Devolved needs-based intranet: Enable Visionary Mindshare,Benjamin Harris,Education,2023,978-1-69787-323-8,40.39,778,4.2
+BOOK_053,Total exuding encoding: Morph Dynamic E-Tailers,Bethany Ross MD,Art,2017,978-1-9835-7121-3,18.15,701,4.7
+BOOK_054,Automated tangible standardization: Harness Transparent Models,Kristen Weber,Travel,2024,978-0-299-48925-0,64.18,538,4.7
+BOOK_055,Ameliorated reciprocal synergy: Repurpose Plug-And-Play Web Services,Cheryl Smith,Art,2017,978-1-74890-694-6,14.21,164,3.2
+BOOK_056,Implemented 24hour Local Area Network: Brand Extensible Mindshare,Candice Colon,Psychology,2015,978-1-80882-831-7,70.95,300,4.1
+BOOK_057,Managed explicit protocol: Utilize 24/365 E-Services,"Shaun Schmidt, Theresa Harris",Art,2019,978-0-88089-528-6,42.4,166,4.1
+BOOK_058,Fully-configurable optimal website: Extend Cross-Platform Infrastructures,Catherine Bradshaw,Fantasy,2019,978-1-06-791661-9,62.89,516,4.8
+BOOK_059,Total optimal initiative: Strategize Collaborative Portals,"George Jones, Roberta Downs",History,2021,978-0-364-04658-6,68.97,337,4.4
+BOOK_060,Progressive incremental methodology: Redefine Transparent Web-Readiness,Beth Hart DDS,Fantasy,2022,978-0-442-90940-6,61.5,359,4.6
+BOOK_061,Fundamental coherent collaboration: Incubate Vertical Networks,Sarah Greene,Self-Help,2022,978-0-8293-6619-8,77.66,477,4.9
+BOOK_062,Exclusive neutral encryption: Utilize Leading-Edge Niches,Tammy Franklin,Fantasy,2015,978-0-543-01369-9,75.75,489,3.4
+BOOK_063,Integrated scalable attitude: Facilitate Innovative Users,Suzanne Walker,Technology,2022,978-1-263-55364-9,31.03,578,4.2
+BOOK_064,Decentralized non-volatile projection: Engineer Distributed Vortals,"Andrea Howell, Alicia Malone",Self-Help,2022,978-1-5229-9287-5,66.09,400,3.3
+BOOK_065,Customizable homogeneous projection: Facilitate Compelling Paradigms,"Walter Cain, Adrienne Whitney",Health,2024,978-1-389-20749-5,20.24,537,3.8
+BOOK_066,Balanced solution-oriented matrix: Transition Enterprise Architectures,"Michael Mcpherson, Jodi Bruce",Fiction,2022,978-1-4012-2441-7,21.47,165,4.1
+BOOK_067,Balanced responsive support: Re-Contextualize Virtual Web-Readiness,"Carl Baker, Kenneth Castro",Mystery,2024,978-0-333-87620-6,76.4,779,4.4
+BOOK_068,Phased impactful challenge: Implement End-To-End Infrastructures,Peter Nichols,Psychology,2021,978-0-08-485531-4,46.82,177,3.2
+BOOK_069,Reduced heuristic infrastructure: Deploy Synergistic Convergence,Christine Horn,Non-Fiction,2022,978-1-125-99066-7,57.59,781,3.4
+BOOK_070,Realigned scalable data-warehouse: Utilize 24/365 Info-Mediaries,"Tina Green, Cynthia Frye",Travel,2024,978-1-61346-611-7,34.38,248,4.7
+BOOK_071,Managed scalable extranet: Iterate Collaborative Infrastructures,Laura Gonzalez,Cooking,2017,978-1-9806-0760-1,64.5,490,4.6
+BOOK_072,Up-sized discrete open system: Strategize Frictionless Channels,Zachary Smith,Philosophy,2015,978-0-7596-5140-1,36.02,359,4.7
+BOOK_073,Managed bandwidth-monitored policy: E-Enable Global Methodologies,"Charles Christian, Todd Butler",Art,2017,978-0-9569594-9-2,38.18,328,3.5
+BOOK_074,Vision-oriented contextually-based focus group: Grow Holistic Paradigms,Christina Davis,History,2020,978-1-202-43958-4,89.06,671,3.9
+BOOK_075,Reduced motivating neural-net: Exploit E-Business Content,Madeline Colon,Mystery,2017,978-0-449-27829-1,14.62,356,3.5
+BOOK_076,Integrated value-added workforce: Aggregate Front-End Roi,"Jeremy Simmons, Elijah Brown",Business,2019,978-0-87662-156-1,68.18,576,4.1
+BOOK_077,Front-line mobile workforce: Synergize Dot-Com Communities,Aaron Henry,Fiction,2020,978-0-667-92931-9,31.28,274,4.8
+BOOK_078,Reduced actuating interface: Unleash E-Business Methodologies,Mary Gilmore,Education,2019,978-1-890947-61-3,40.15,323,4.5
+BOOK_079,Multi-channeled 24hour open architecture: Integrate 24/365 Solutions,Cody Sellers,Technology,2020,978-0-698-49380-3,79.47,295,4
+BOOK_080,Pre-emptive demand-driven model: Scale Strategic Web Services,Christine Cisneros,History,2021,978-0-18-604790-7,36.25,350,3.5
+BOOK_081,Diverse responsive superstructure: Incubate Compelling Methodologies,Justin Bond,Fiction,2024,978-0-262-58751-8,13.85,282,4.5
+BOOK_082,Cloned multi-tasking attitude: Matrix Cross-Platform Infrastructures,Lisa Baker,Business,2020,978-1-80531-291-8,79.81,192,4.3
+BOOK_083,De-engineered explicit standardization: Seize Customized Bandwidth,Robert Gibson,Travel,2017,978-1-908117-88-5,67.35,635,3.7
+BOOK_084,Fully-configurable secondary open system: Evolve Bleeding-Edge Niches,Rebekah Robles,Non-Fiction,2016,978-1-4752-9598-6,22.53,257,3.8
+BOOK_085,Front-line maximized installation: Optimize 24/7 Convergence,Michael Davis,Mystery,2018,978-0-630-79280-3,36,756,5
+BOOK_086,Function-based uniform success: Embrace Integrated Platforms,Cody Jones,Philosophy,2021,978-0-922815-28-9,13.53,627,3.8
+BOOK_087,Focused actuating intranet: Re-Intermediate Holistic E-Services,Richard Cross,Philosophy,2015,978-1-55795-820-4,20.56,178,4.3
+BOOK_088,Devolved well-modulated support: Morph Real-Time Architectures,Mr. Samuel Jones,Technology,2022,978-1-4332-7979-9,49.75,780,3.5
+BOOK_089,Innovative high-level encoding: Redefine Impactful Bandwidth,Christopher Jones,Romance,2022,978-1-279-03581-8,12.46,600,4.7
+BOOK_090,Profit-focused responsive Graphic Interface: Visualize Cross-Platform Eyeballs,Jose Powers,Philosophy,2018,978-1-4279-8690-0,40.4,185,3.8
+BOOK_091,Function-based 24hour conglomeration: Grow Extensible Models,Amanda Berg,Fantasy,2023,978-1-268-73025-0,51.24,737,4.3
+BOOK_092,Multi-tiered tangible forecast: Grow 24/7 E-Services,Laura Mcfarland,Fantasy,2017,978-0-512-14414-0,73.21,282,4.1
+BOOK_093,Robust next generation monitoring: Incentivize Granular Info-Mediaries,"Susan Flynn, Michael Smith",Biography,2021,978-1-968752-83-5,74.52,270,3.8
+BOOK_094,Multi-channeled contextually-based paradigm: Morph End-To-End Metrics,Melissa Perez,Art,2015,978-0-15-633406-8,84.29,626,3.3
+BOOK_095,Multi-lateral stable budgetary management: E-Enable Intuitive Convergence,Steven Walker,Biography,2018,978-0-528-34286-8,43.12,704,4.1
+BOOK_096,Re-engineered 24/7 instruction set: Implement Back-End Content,Daniel Schaefer,Art,2022,978-1-278-92758-9,38.31,288,3.1
+BOOK_097,Cross-group methodical superstructure: Disintermediate Seamless Action-Items,Kelsey Le,Philosophy,2018,978-1-62753-792-6,89.6,567,4.1
+BOOK_098,Centralized non-volatile infrastructure: Empower Revolutionary E-Services,Alexander Gray,Biography,2018,978-1-4485-0316-2,31.99,354,3.2
+BOOK_099,Implemented global infrastructure: Evolve Scalable Roi,David Rocha,Non-Fiction,2024,978-0-16-869171-5,17.78,590,3.2
+BOOK_100,Enterprise-wide cohesive complexity: Deliver Wireless Applications,"Brianna Wall, Crystal Hoffman",Philosophy,2018,978-1-331-94217-7,25.06,257,4.5
