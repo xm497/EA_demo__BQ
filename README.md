@@ -1,3 +1,4 @@
+<div align="center"><img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/82b8fdd1-9212-410c-b892-5922dfb93647" /> </div>
 
 # BigQuery Notebooks Tutorial: Demo on Sales Analysis EA Online Book Store
 
