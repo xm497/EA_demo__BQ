@@ -9,6 +9,8 @@ To run the manual script, we need to open the dev portal (https://devportal.deut
 Then click on the listed project. and also the workstation.
 Please wait some time to boot the workstation
 
+<img width="645" height="218" alt="image" src="https://github.com/user-attachments/assets/b32d42a4-4f73-434d-92ce-63d2e96c0448" />
+
 ## A.Manaual Step
 
 ### 0: git clone this repo
