@@ -110,5 +110,8 @@ In this section, we have:
 ✅ **Performed analytics**: Joined multiple tables to extract business insights  
 ✅ **Generated actionable insights**: Identified top books, customers, and engagement patterns  
 
-
+## Dont forget to Run undo commands
+```python
+99undo_initsetup.sh
+```
 
