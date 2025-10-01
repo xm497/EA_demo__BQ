@@ -124,6 +124,10 @@ def load_customers_json():
 customers_job=load_customers_json()
 ```
 
-## Load Sales data. (Json)
-The sales.json contains the details of th
-## Laod Weblog data.(txt)
+## 3. Load Sales data. (Json) (try it)
+Just use the above example and try to load the sales data.
+3.1 import libraries and config
+3.2 create the function , please note table_id , uri and any refrence to the table T_XXX_RAW needs to be changed.
+<img width="150" height="43" alt="image" src="https://github.com/user-attachments/assets/3a8c4b66-05ec-4eb2-a6b7-a33cd24ede36" />
+
+## 4. Load Weblog data.(txt)
